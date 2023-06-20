@@ -43,7 +43,7 @@ const TodosLogic = () =>{
 
     const addTodo =(title) =>{
       const newTodo = {
-        id:uuidv4 (),
+        id:uuidv4(),
         title:title,
         completed:false
       }

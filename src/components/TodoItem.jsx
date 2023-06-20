@@ -43,7 +43,7 @@ const TodoItem = ({todoProps,handleChange,delTodo,setUpdate}) =>{
       <input type="text" value={todoProps.title} className={style.textInput} 
       style={editMode}
       onChange={(e) => setUpdate(e.target.value,todoProps.id)}
-      onkeyDown={handleUpdateDone}
+      onKeyDown={handleUpdateDone}
       />
      
       </li>
